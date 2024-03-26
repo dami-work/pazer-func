@@ -1,0 +1,18 @@
+{
+  "name": "damiwork/pazer-func",
+  "description": "PazerFUNC",
+  "version": "1.0.0",
+  "require": {
+    "php": ">=7.3",
+    "ext-mysqli": "*",
+    "ext-json": "*",
+    "ext-mbstring": "*",
+    "ext-openssl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "PazerFunc\\": "src/"
+    }
+  },
+  "license": "MIT"
+}
